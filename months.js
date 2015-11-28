@@ -1,12 +1,17 @@
 // Exercise from "Eloquent JavaScript", chapter 10.
+// Update - ECMAScript 6 syntax & increased readability.
 
-var month = function() {
-	var names = ["January", "February", "March", "April",
+let month = function() {
+	let names = ["January", "February", "March", "April",
                  "May", "June", "July", "August",
                  "September", "October", "November", "December"];
   return {
-    name : function(number) { return names[number]; },
-    number : function(name) { return names.indexOf(name); }
+    name : function(number) {
+    	return names[number];
+    },
+    number : function(name) {
+    	return names.indexOf(name);
+    }
   };
 }();
 
