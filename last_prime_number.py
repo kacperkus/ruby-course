@@ -10,7 +10,7 @@ for number in range(1, 1000):
                 break
             else:
                 is_prime = True
-        if is_prime == True:
+        if is_prime:
             numbers.append(number)
 
 for number in numbers:
